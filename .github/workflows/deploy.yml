@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "dinaau-serverless-95"
-          entrypoint: "jsr:@deno/nextjs-start"
+          entrypoint: ""
           root: "."
-          include: .next, public
+          
           
